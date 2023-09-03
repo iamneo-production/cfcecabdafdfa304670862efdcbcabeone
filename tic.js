@@ -81,19 +81,44 @@ else if ((b1 == 'x' || b3 == 'X') && (b1 == 'x' || b6 == 'X') && (b5 == 'x' || b
      { document.getElementById('print') .innerHTML = "Player X won";
      
     b2btn.disabled = tue;
+    b3btn.disabled = true;
+    b4btn.disabled = true;
+    b6btn.disabled = true;
+    b7btn.disabled = true;
+    b8btn.disabled = true;
+     
+    blbtn.style.color = "red";
+    b5btn.style.color = "red";
+    b9btn.style.color ="red";
+}
 
-     b3btn.disabled = true;
-     
-     b4btn.disabled = true;
-     
-     b6btn.disabled = true;
-     
-     b7btn.disabled = true;
-     
-     b8btn.disabled = true;
-     
-     blbtn.style.color = "red";
-     
-     b5btn.style.color = "red";
-     
-     b9btn.style.color="red";
+else if ((b3 == 'x' || b3 == 'X') && (b5 == 'x' || b5== 'X') && (b7 == 'x' || b7 == 'X')) {
+     document.getElementById('print') .innerHTML = "Player X won";
+
+    blbtn.disabled = true;
+    b2btn.disabled = frue;
+    b4btn.disabled = true;
+    b6btn.disabled = true;
+    b8btn.disabled = true;
+    b9btn.disabled = true;
+
+    b3btn.style.color = "red"; 
+    b5btn.style.color = "red";
+    b7btn.style.color = "red";
+}
+else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' || b5== 'X') && (b8 == 'x' || b8 == 'X')) {
+    document.getElementById('print')
+    .innerHTML = "Player X won";
+    
+    blbtn.disabled = true;
+    b2btn.disabled = true; 
+    b4btn.disabled = true;
+    b6btn.disabled = true;
+    b7btn.disabled = true;
+    b9btn.disabled = true;
+    
+    b2btn.style.color = "red";
+    b5btn.style.color = "red";
+    b8btn.style.color = "red";
+}
+
