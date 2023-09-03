@@ -121,4 +121,31 @@ else if ((b2 == 'x' || b2 == 'X') && (b5 == 'x' || b5== 'X') && (b8 == 'x' || b8
     b5btn.style.color = "red";
     b8btn.style.color = "red";
 }
+else if ((b4== 'x' || b4 == 'X') && (b5 == 'x' ||b5== 'X') && (b6 == 'x' || b6 == 'X')) { document.getElementById('print')
+        .innerHTML = "Player X won";
 
+    blbtn.disabled = true;
+    b2btn.disabled = true;
+    b3btn.disabled = true;
+    b7btn.disabled = true;
+    b8btn.disabled = true;
+    b9btn.disabled = true;
+    
+    b4btn.style.color = "red";
+    b5btn.style.color = "red";
+    b6btn.style.color = "red";
+}
+else if ((b1 == '0' || b1 == '0') && (b2 == '0' || b2 == '0') && (b3 == '0' || b3 == '0')) {
+     document.getElementById('print') .innerHTML = "Player 0 won";
+
+        b4btn.disabled = true;
+        b5btn.disabled = true;
+        b6btn.disabled = true;
+        b7btn.disabled = true;
+        b8btn.disabled = true;
+        b9btn.disabled = true;
+        
+        blbtn.style.color = "red";
+        b2btn.style.color = "red";
+        b3btn.style.color="red";
+}
