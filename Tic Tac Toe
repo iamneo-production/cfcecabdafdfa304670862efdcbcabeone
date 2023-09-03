@@ -18,4 +18,12 @@
     </div>
     <!--Add more rows for the grid-->
 </div>
-<div class="result"     
+<div class="result-container">
+    <p-class="result">Player X's Turn</p-class>   
+</div>
+<div class=""reset-section">
+    <button class="reset-button" disblabed>Reset</button>
+</div>
+<script src=""script.js"></scirpt>
+</body>
+</html>
