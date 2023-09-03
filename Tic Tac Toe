@@ -10,4 +10,12 @@
     <header>
         <h1>Tic Tac Toe</h1> 
     </header>
-    <div class =     
+    <div class = "box">
+        <!-- The 3x3 grid-->
+        <div class="row">
+        <input type="text" class="bt" readonly>
+        <!-- Add more input fields for the field for the grid-->
+    </div>
+    <!--Add more rows for the grid-->
+</div>
+<div class="result"     
