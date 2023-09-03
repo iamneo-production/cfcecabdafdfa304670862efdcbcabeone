@@ -219,7 +219,7 @@ else if ((b3== '0' || b3 == '0') && (b5 == '0' || b5== '0') && (b7 == '0' || b7 
     b5btn.style.color = "red";
     b7btn.style.color = "red";
 }
-else if ((b2 == '0' 11 b2= '0') && (b5'0' 11 b5 == '0') && (b8'0' 11 b8 '0'))
+else if ((b2 == '0' || b2 == '0') && (b5 =='0' || b5 == '0') && (b8 == '0' || b8 == '0'))
         {document.getElementById('print') .innerHTML = "Player 0 won"; bibtn.disabled = true;
     
     b3btn.disabled = true;
@@ -232,22 +232,27 @@ else if ((b2 == '0' 11 b2= '0') && (b5'0' 11 b5 == '0') && (b8'0' 11 b8 '0'))
     b5btn.style.color="red";
     b8btn.style.color="red"; 
 }
-else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||  b5== '0') && (b6 =='0' || b6 == '0''ס'
+else if ((b4 == '0' || b4 == '0') && (b5 == '0' ||  b5== '0') && (b6 =='0' || b6 == '0'))
+        {document.getElementById('print') .innerHTML = "Player 0 won";
 
-document.getElementById('print') .innerHTML = "Player 0 won";
+    blbtn.disabled = true;
+    b2btn.disabled = true;
+    b3btn.disabled = true;
+    b7btn.disabled = true;
+    b8btn.disabled = true;
+    b9btn.disabled = true;
 
-blbtn.disabled = true;
-
-b2btn.disabled = true;
-
-b3btn.disabled = true;
-
-b7btn.disabled = tue
-
-b8btn.disabled=true
-
-b9btn.disabled = true;
-
-b4btn.style.color="red"; b5btn.style.color="red";
-
-b6btn.style.color="red";    
+    b4btn.style.color="red";
+    b5btn.style.color="red";
+    b6btn.style.color="red"; 
+}
+else if ((bl == 'X' || b1 == '0') && (b2 == 'X'|| b2 == '0') && (b3 == 'X' || b3 == '0') && (b4 == 'X' || b4 == '0') && (b5 == 'X' || b5== '0') && (b6 == 'X' || b6 =='0') && 
+        (b7 == 'X' || b7 == '0') && (b8 == 'X' || b8== '0') && (b9 == 'X' || b9 == '0')) 
+            {document.getElementById('print') .innerHTML = "Match Tie";
+}
+else{
+    if (flag == 1) {
+        document.getElementById('print')
+                .innerHTML= "Player 0 Turn";
+    }
+}   
