@@ -35,4 +35,43 @@ P{
 #b2{
     border-bottom: 1px solid gray;
     border-right: 1px solid gray ;
+    border-left: 1px solid grey;
+}
+#b3{
+    border-bottom: 1px solid gray;
+    border-left: 1px solid grey;
+}
+#b4{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray ;
+    border-right: 1px solid grey;
+}
+#b5{
+    border: 1px solid grey;
+}
+#b6{
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray ;
+    border-left: 1px solid grey;
+}
+#b7{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray ;
+    
+}
+#b8{
+    border-top: 1px solid gray;
+    border-right: 1px solid gray ;
+    border-left: 1px solid grey;
+}
+#b9{
+    border-top: 1px solid gray;
+    border-left: 1px solid grey;
+}
+
+#but{
+    box-sizing: border-box;
+    width: 95px;
+    height: 40px
+    border: 1p 
 }
